@@ -1,4 +1,10 @@
+
+#!/bin/bash
+
 echo "Starting installation..."
-sudo apt update
-sudo apt install -y curl
+
+sudo apt-get update
+
+sudo apt-get install -y tree
+
 echo "Installation complete!"
